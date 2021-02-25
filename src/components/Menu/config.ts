@@ -35,16 +35,21 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: '/lottery',
-  // },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
+  {
+    label: 'NFT Lottery (Upcoming)',
+    icon: 'TicketIcon',
+    href: '/upcomming',
+  },
+  {
+    label: 'NFT Factory (Upcoming)',
+    icon: 'NftIcon',
+    href: '/upcomming',
+  },
+  {
+    label: 'NFT Exchange (Upcoming)',
+    icon: 'TradeIcon',
+    href: '/upcomming',
+  },
   {
     label: 'Info',
     icon: 'InfoIcon',
@@ -53,14 +58,14 @@ const config: MenuEntry[] = [
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/0x08430Ed03bb44909e3B0C529c541D2fE249b8875',
       },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/',
-      },
+      // {
+      //   label: 'CoinGecko',
+      //   href: 'https://www.coingecko.com/en/coins/',
+      // },
+      // {
+      //   label: 'CoinMarketCap',
+      //   href: 'https://coinmarketcap.com/currencies/',
+      // },
       {
         label: 'AstroTools',
         href: 'https://app.astrotools.io/pancake-pair-explorer/0xa09A2926678075069822F0Abe3Ad93BeC615FB2D',
